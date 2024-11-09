@@ -1,0 +1,95 @@
+/* src/components/TaskList.css */
+.task-list {
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .new-task-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .new-task-btn:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .task-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .task-title {
+    font-weight: bold;
+  }
+  
+  .task-status, .task-due-date {
+    color: #888;
+  }
+  
+  .task-actions {
+    display: flex;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #007bb5;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #da190b;
+  }
+  
+  .no-tasks-message {
+    font-size: 1.5rem;
+    color: #f44336;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
